@@ -1,0 +1,1 @@
+This is the website for the Lackton Borough. A goblin village with different citizens and occupations. 
