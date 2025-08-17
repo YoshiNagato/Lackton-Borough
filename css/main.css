@@ -10,3 +10,7 @@ body {
     background-color: rgba(73, 90, 70, 0.50);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.header {
+    display:flex;
+}
