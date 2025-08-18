@@ -16,8 +16,15 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.medievalsharp-regular {
+    font-family: "MedievalSharp", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
 
-/* HEAD STYLES */
+
+
+/* HEADER STYLES */
 .header {
     display:flex;
     flex-direction: column;
@@ -34,19 +41,43 @@ body {
     font-size:0.5rem;
 }
 
+.advertisement {
+    font-family:medievalsharp;
+    font-size: 1.5rem;
+    align-self: center;
+}
+
+.banner img {
+    width:100vw;
+    height:80%;
+}
+
+/* MENU */
 .menu {
     background-color: #375c37 ;
-    display:inline-block;
+    display:flex;
+    justify-content:center;
+    gap:100px;
+    min-height: 100px;
 /*     padding:10px; */
 
+}
+
+.menu a {
+    font-size:1.4rem;
+    font-weight: bold;
+}
+
+.menu ul {
+    align-items: center;
 }
 
 .menu li, a {
     color: rgb(165, 180, 162);
     list-style: none;
     text-decoration: none;
-    font-size: 1.2rem;
     padding:10px;
+
 }
 
 .menu a:hover {
@@ -75,7 +106,64 @@ body {
     display:block;
 }
 
-.banner img {
-    width:100vw;
-    height:80%;
+
+
+/* FOOTER */
+.footer {
+    background-color: #375c37;
+    padding:10px 0;
+}
+
+.footer h1 {
+    font-size: 1.3rem;
+}
+
+.footerBox {
+    display:flex;
+    flex:1;
+    padding:20px;
+/*     gap:40px; */
+text-align: center;
+}
+
+.footerBoxLeft {
+    display:flex;
+    flex:1;
+    flex-direction: column;
+    border-right:#173417 solid 2px;
+    padding-right:15px;
+    line-height: 1.8rem;
+}
+
+.footerBoxMiddle {
+    display:flex;
+    flex-direction: column;
+    flex:1;
+    margin:0 15px;
+    line-height: 1.8rem;
+}
+
+.footerBoxRight {
+    display:flex;
+    flex-direction: column;
+    flex:1;
+    border-left:#173417 solid 2px;
+    padding-left:15px;
+}
+
+.footerBoxRight li,a {
+    list-style: none;
+    color:black;
+    font-size:1rem;
+    line-height: 1.8rem;
+}
+
+.footerBoxRight a:hover {
+    color:#173417;
+}
+
+.footer > p {
+    color:#173417;
+    text-align:center;
+    padding:10px;
 }
