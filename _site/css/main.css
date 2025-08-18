@@ -1,3 +1,8 @@
+/* COLORS */
+/* 
+    background: rgba(73, 90, 70, 0.50);
+    menu: #375c37 ;
+*/
 
 /* GLOBAL STYLES */
 * {
@@ -11,6 +16,66 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+
+/* HEAD STYLES */
 .header {
     display:flex;
+    flex-direction: column;
+}
+
+.logoHolder {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:20px;
+}
+
+.logoHolder p {
+    font-size:0.5rem;
+}
+
+.menu {
+    background-color: #375c37 ;
+    display:inline-block;
+/*     padding:10px; */
+
+}
+
+.menu li, a {
+    color: rgb(165, 180, 162);
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding:10px;
+}
+
+.menu a:hover {
+    background-color: #173417;
+
+}
+
+.menu ul {
+    display:flex;
+    justify-content: space-around;
+}
+
+.dropdownMenu {
+    display:none;
+    position:absolute;
+    background-color: #375c37;
+    text-align: center;
+    padding:15px;
+}
+
+.dropdownMenu li {
+    padding-top:10px;
+}
+
+.dropdown:hover .dropdownMenu {
+    display:block;
+}
+
+.banner img {
+    width:100vw;
+    height:80%;
 }

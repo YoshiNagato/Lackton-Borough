@@ -10,28 +10,30 @@
 <body>
     <!DOCTYPE html>
 <header class="header">
-    <div class="wrapUp">
         <div class="logoHolder">
             <a href="index.html"> <img src="images/logo.png" alt="Logo Banner" width="150px"></a>
-            <h1>The best Goblin Village*</h1>
-            <p>*south of Krekna</p>
+            <div class="advertisement">
+                <h1>The best Goblin Village*</h1>
+                <p>*south of Krekna</p>
+            </div>
         </div>
         <nav class="menu">
             <ul>
                 <li><a href="news.html">News</a></li>
                 <li><a href="events.html">Events</a></li>
-                <li><a href="info.html">Info</a>
+                <li class="dropdown"><a href="info.html">Info</a>
                     <ul>
-                        <li>For Visitors</li>
-                        <li>The Chieftain</li>
-                        <li>Important Visitors</li>
+                        <div class="dropdownMenu">
+                            <li><a href="visitors.html">For Visitors</a></li>
+                            <li><a href="#">The Chieftain</a></li>
+                            <li><a href="#">Important Visitors</a></li>
+                        </div>
                     </ul>
                 </li>
             </ul>
         </nav>
-    </div>
     <div class="banner">
-        <img src="images/mountains.png" alt="Mountains"> <!-- TODO: resize Image -->
+        <img src="images/mountains.png" alt="Mountains"> 
     </div>
 </header>
 </html>
