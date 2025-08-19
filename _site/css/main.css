@@ -53,60 +53,51 @@ body {
 }
 
 /* MENU */
-.menu {
-    background-color: #375c37 ;
-    display:flex;
-    justify-content:center;
-    gap:100px;
-    min-height: 100px;
-/*     padding:10px; */
-
+.nav {
+    background-color: #375c37;
+    height:50px;
 }
 
-.menu a {
+.nav a {
     font-size:1.4rem;
     font-weight: bold;
-}
-
-.menu ul {
-    align-items: center;
-}
-
-.menu li, a {
-    color: rgb(165, 180, 162);
-    list-style: none;
     text-decoration: none;
+    color: rgb(165, 180, 162);
     padding:10px;
-
 }
 
-.menu a:hover {
+.nav a:hover {
     background-color: #173417;
-
+    padding:10px;
 }
 
-.menu ul {
+.nav li {
+    list-style: none;
+}
+
+.menu {
+    height:50px;
     display:flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .dropdownMenu {
     display:none;
     position:absolute;
     background-color: #375c37;
-    text-align: center;
-    padding:15px;
+    line-height: 50px;
+    margin-top:10px;
 }
 
-.dropdownMenu li {
-    padding-top:10px;
+.dropdownMenu a:hover {
+    background-color: #173417;
+    padding:8px 10px 12px 10px;
 }
 
 .dropdown:hover .dropdownMenu {
     display:block;
 }
-
-
 
 /* FOOTER */
 .footer {
