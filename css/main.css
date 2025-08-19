@@ -4,7 +4,7 @@
     menu: #375c37 ;
 */
 
-/* GLOBAL STYLES */
+/* --- GLOBAL STYLES --- */
 * {
     margin:0;
     padding:0;
@@ -24,7 +24,7 @@ body {
 
 
 
-/* HEADER STYLES */
+/* --- HEADER STYLES --- */
 .header {
     display:flex;
     flex-direction: column;
@@ -52,7 +52,7 @@ body {
     height:40vh;
 }
 
-/* MENU */
+/* --- MENU STYLES --- */
 .nav {
     background-color: #375c37;
     height:50px;
@@ -99,7 +99,7 @@ body {
     display:block;
 }
 
-/* FOOTER */
+/* --- FOOTER STYLES --- */
 .footer {
     background-color: #375c37;
     padding:10px 0;
@@ -157,4 +157,36 @@ text-align: center;
     color:#173417;
     text-align:center;
     padding:10px;
+}
+
+/* --- INDEX STYLES --- */
+.indexWrapper {
+    width:70%;
+    margin:auto;
+}
+
+.indexWrapper h1 {
+    text-align: center;
+    margin:20px 0;
+}
+
+.infoWrapper {
+    margin:30px 0;
+    border:1px solid red;
+    display:flex;
+    gap:50px;
+}
+
+.indexNews {
+    border:1px solid blue;
+    display:flex;
+    flex-direction: column;
+    flex:2;
+}
+
+.indexEvents {
+    border:1px solid green;
+    display:flex;
+    flex-direction: column;
+    flex:1;
 }
