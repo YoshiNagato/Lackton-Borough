@@ -235,3 +235,24 @@ h1 {
     width:300px;
     margin:20px 0;
 }
+
+/* VISITORS STYLE */
+.visitorsWrapper {
+    border:red solid 1px;
+    width:70%;
+    margin:auto;
+}
+
+.visitorsContainer {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:20px;
+    padding:30px 0;
+}
+
+.visitorsInfo {
+    border:1px solid blue;
+    width:30%;
+}
